@@ -1,0 +1,59 @@
+ORCHEST_URL_HOST=http://127.0.0.1:8000
+ORCHEST_URL_PUBLIC=http://127.0.0.1:8000
+
+WEBCLIENT_TITLE="Poupinha Assitente Virtual"
+
+CANAL=webclient_poupatempo
+CLIENT_ID=OrquestradorPoupinha
+CLIENT_SECRET=4570e737-56bd-4faa-9ceb-dfd9f53e4ea0
+ISSUER=https://homolog.login.sp.gov.br/sts
+
+ASSISTANT_ACCESS_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJva3VubyIsInN1YiI6InJva3VubyIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJyb2xlIjoiVXNlciIsInBlcm1pc3Npb25zIjpbXSwidWlkIjoiMTAwMDMzMTAzOSIsImlhdCI6MTYzMzkwMzU0MX0.aMQqXYygVhHJePhujfZKltbFrhQFg1D-9_vWyCp370HPXmogyMjhiNx8lM4b0JJam-Uh4bQQx9cxb60WH2zCmBBX_lYZwW61SpAcAc91vWC_IDkqFGat3w5XV0qaR0MSyYxuHmMMl6nW2LWOOMezE-Iphg5i1eb0Yoym0iCZoGz0-Zq3E7Eq93j2g5p7cDAji3rBu5or-AcJdepA9CuCg04U2IMr-0W5MQM5AahfYjFDpViDP2W381CJOvD4IOuYC-wOpOin8dFOqE5ZzRVDZSxyKucVASoP6kXD8ItYw-64ertcloS5-YJ3eup0QAoqT5KwWoppHZl1r6dGBvNUVg
+ASSISTANT_URL=https://10.199.44.5/assistant/watson-assistant-v141/instances/1626970248513/api
+ASSISTANT_APIKEY=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJva3VubyIsInN1YiI6InJva3VubyIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJyb2xlIjoiVXNlciIsInBlcm1pc3Npb25zIjpbXSwidWlkIjoiMTAwMDMzMTAzOSIsImlhdCI6MTYzMzkwMzU0MX0.aMQqXYygVhHJePhujfZKltbFrhQFg1D-9_vWyCp370HPXmogyMjhiNx8lM4b0JJam-Uh4bQQx9cxb60WH2zCmBBX_lYZwW61SpAcAc91vWC_IDkqFGat3w5XV0qaR0MSyYxuHmMMl6nW2LWOOMezE-Iphg5i1eb0Yoym0iCZoGz0-Zq3E7Eq93j2g5p7cDAji3rBu5or-AcJdepA9CuCg04U2IMr-0W5MQM5AahfYjFDpViDP2W381CJOvD4IOuYC-wOpOin8dFOqE5ZzRVDZSxyKucVASoP6kXD8ItYw-64ertcloS5-YJ3eup0QAoqT5KwWoppHZl1r6dGBvNUVg
+ASSISTANT_ID=1462d958-e5a6-4a82-8e17-47b490bd0038
+ASSISTANT_VERSION=2021-07-01
+
+DISCOVERY_URL=https://api.us-south.discovery.watson.cloud.ibm.com/instances/443d8959-8133-47af-a217-49bccc022906
+DISCOVERY_APIKEY=3vqy2jtEZlRu5aLgi1vKe8k3bWos6vJ5w7ovm5gZgnPA
+DISCOVERY_PROJECTID=4d6e9afa-1960-4d55-b351-0d48f2fc44b2
+DISCOVERY_COLLECTION_ID=b72da257-1e6b-a1d4-0000-017babb4154a
+DISCOVERY_COLLECTION_NAME=Poupatempo_homologa\u00e7\u00e3o
+DISCOVERY_MSG=short
+
+ASSISTANT_ANYTHING_URL=http://127.0.0.1:8000/orchest/v1/watson/
+ASSISTANT_CURADORIA=http://127.0.0.1:8000/orchest/v1/curadoria/
+
+ASSISTANT_MIN=70
+ASSISTANT_DEFAULT=menu
+
+ASSISTANT_CREDENTIALS_DB=False
+
+SERVICOS_PRODESP_PRODUCAO=False
+
+REPOSITORY='media/'
+CLEAN_TIME=60
+WHATS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZmVmNzUzNjZhYjZkNmM1NTVlZjNlZWQyMjI4M2RmOTgwOWQyYWM0YjI1ZDkxMTQ3NzdhODAxNjQxMmMxYTBhMDc1NmY1YmRmMTFhYzJiYjEiLCJpYXQiOjE2MjQ5OTYxMjYsIm5iZiI6MTYyNDk5NjEyNiwiZXhwIjoxNjU2NTMyMTI2LCJzdWIiOiIzNDg4Iiwic2NvcGVzIjpbXX0.NxF9HkXlVojcBYxTfzKf4srLDo0LwJiMCqgvy3iNKJQdXJn--JR9x2MsiP-d_FPMb9ZRrXdtmWRdGnCbZWQKfpVIkOlbtRe3ItX-21jG5oDdxr6rtzNg0rKtEst300G6JqCUqEFYH-lkNxOGdDQLAP56TmYKuSOzXAf06phhQ1dYU0Z2Rrxn7Yn172fnXHdoaMQflK75JhL7xyLAuSY-RNyuQS650H8PH0nk5FgLFY-1fCCINcrdLESgnvRSDZfYUNrNJsHNgRNyrwAriRTKi2JONSqD_ULkZHen5kB1FYs0WPhqnhO65R1SmzmTzsMpigsOHBiObyLShZu5uGS89BZwkJgc66PCueyqg6aYMxRXaIyuBP1f2nXuP38DJMfjDALozyZzbkjy2IyjU4POfU8dw9Cw0tkxc3oUw-tIK_YWeqMoyZqodKR0FdWH2j5K024wdNrJWK2JKg8I53zXsade5He-qtRzHfasqVSc58SfdL5ULw2QKxXBvO4VTG8ox7IAZ34SdgUHEIO8z89XIiGZYnBfXXF1ZRuTC1UfSfxOnEMEci9ezpR8NUKeEr28Ez0T4VTqRGuJY7_o64NOox5SkIxisGqp4jhP15uoQB-2cRPW79ULYMPp7DNs40MtRNroFd1zSPGsVgc1ZoKfSMJfibcUnqnoPZMPwCBHuqo
+WHATS_URL=https://api.positus.global/v2/sandbox/whatsapp/numbers/6334ea09-d3fe-4689-8acb-684eb0d0ec78/messages
+WHATS_NUM_SOURCE=+5571992500187
+
+REACT_API_KEY=value
+REACT_PROJECT_ID=value
+REACT_SENDER_ID=value
+REACT_BACKEND_URL=value
+
+ERRO_CRIACAO_ID =*** Erro na geração do id do atendimento
+ERRO_CREDENCIAIS_WATSON=*** Erro no get das credenciais do Watson
+ERRO_CRIACAO_ATENDIMENTO=*** Erro na criação do atendimento
+ERRO_PARAMETROS_API=*** Erro na leitura dos parâmetros da api
+ERRO_CRIACAO_DADOS_RETORNO=*** Erro na criação dos dados de retorno da API
+ERRO_CHAMADA_PROC=*** Erro na chamada da PROC ou Webservice
+ERRO_SERVIDOR_AUTH_PRODESP=*** Servidor de autorização PRODESP não responde
+ERRO_SEM_SERVICO_CADASTRADO=*** Não localizou credencias do serviço serviço cadastrado na tabela SERVICE da orquestradora
+ERRO_TOKEN_NAO_GERADO=*** Token não foi gerado
+ERRO_URL_PROC_N_ENCONTRADA=*** Erro, certifique-se que a URL do processo esteja cadastrada na tabela Routers e o registro incluído no arquivo fix_routers.
+ERRO_VAR_CONTEXTO=*** ERRO: VARIÁVEL DE CONTEXTO ENVIADA PELA PROC {} NÃO É DO TIPO DICT {}
+MSG_ERROR=*** Estamos temporariamente fora de serviço (~_~メ)
+PARAM_ERROR=*** Estão faltando parâmetros Jonh (▀̿̿Ĺ̯̿▀̿ ̿)
+WATSON_ERROR=*** Watson IBM não está no ar (~_~メ)
+CHATBOT_MSG=*** Desculpe, mas  não entendi o que você disse

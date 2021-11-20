@@ -1,0 +1,11 @@
+{
+  'message': 'Unfortunately we were not able to send your message',
+  'errors': [
+    {
+      'code': 2017,
+      'title': 'Character policy violated',
+      'details': 'Header text leght is 129. It exceeds max allowed: 60.',
+      'href': 'https://developers.facebook.com/docs/whatsapp/api/errors'
+    }
+  ]
+}

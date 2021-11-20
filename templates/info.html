@@ -1,0 +1,100 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <textarea id="w3review" name="w3review" rows="100" cols="400">
+
+            Orchest API Rest versão 2.0
+            __________________________________________
+            urls       : /orchest/v1/watson
+                       : /orchest/v1/documents
+                       : /orchest/v1/info
+                       : /orchest/v1/middle/proc_valida_cadastro
+            created    : 01-maio-2021
+            update     : 22-maio-2021
+            __________________________________________
+            Magna Sistemas Copyright
+
+
+                                              \          O R C H E S T       /
+                                               \                            /
+                                                 \                         /
+                                                  \                       /
+                                                   ]                     [    ,'|
+                                                   ]                     [   /  |
+                                                   ]                     [ ,'   |
+                                                   ]  ]\             /[  [ |:   |
+                                                   ]  ] \           / [  [ |:   |
+                                                   ]  ]  ]         [  [  [ |:   |
+                                                   ]  ]  ]         [  [  [ |:   |
+                                                   ]  ]  ] ]\   /[ [  [  [ |:   |
+                                                   ]  ]  ] ] (#) [ [  [  [ :===='
+                                                   ]  ]  ] ].nHn.[ [  [  [
+                                                   ]  ]  ]  HHHHH. [  [  [
+                                                   ]  ] /   `HH("N  \ [  [
+                                                   ]  ]/     HHH  "  \[  [
+                                                   ]         NNN         [
+                                                   ]         N/"         [
+                                                   ]         N H         [
+                                                  /          N            \
+                                                 /           q,            \
+                                                /                           \
+                                               /                             \
+
+
+
+             A API Orchest v.2 é um serviço de atendimento por chabot que utiliza a tecnologia de inteligência
+            artificial do IBM Watson Assistant para orientar os cidadãos na resolução de  problemas relativos aos
+            serviços digitais do Detran.
+
+                 A API Orchest v.2 foi desenvolvida com tecnoligia Python Django Framework Rest 3.12.4
+
+                 A API Orchest identifica a intenção do atendimento, orienta o fluxo de conversação e encaminha o cidadão
+            para o serviço do Detran mais adequado para a solução do problema.
+
+                 A API Orchest também  estabelece comunicação com os serviços de mensageria públicas Whatsapp, Telegram
+            e Mensager.
+
+        _________________________________________________________________________________________
+
+        A API é dividida em 3 camadas:
+            - Orchest, responsabilidades:
+                a) Mensageria entre o chatbot e o Watson.
+                b) Broadcast, módulo de comunicação com as APIs do Whatzapp, Telegram e Mensager.
+
+            - Atendimento, responsabilidades:
+                a) Gestão de atendimento
+                b) Gestão de documentos.
+
+            - Middle, responsabilidades:
+                a) Processos e regras de negócio
+                b) Consumo de serviços do Detran
+                c) Serviços disponibilizados pelo Orchest
+
+        O processamento é realizado atráves de 3 classes princiais:
+
+            Orquestrator> realiza a gestão do atendimento:
+              - Inicia, gerencia e encerra os atendimentos.
+              - Gerencia o recebimento e envio de documentos
+              - Gera protocolo do atendimento
+
+            Watson> persiste a comunicação com o Watson
+              - Estalece novas conexões
+              - Abre e deleta sessões
+              - Envia e recebe mensagens do Watson
+              - Atualiza contextos
+
+            Middle> Camada de negócios, acesso aos serviços do Detran
+        __________________________________________________________________________________________
+        Magna Sistemas e IBM Watson
+    </textarea>
+</body>
+</html>

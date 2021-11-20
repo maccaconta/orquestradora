@@ -1,0 +1,17 @@
+{
+  'skills': {
+    'main skill': {
+      'user_defined': {
+        'result': '2'
+      },
+      'system': {}
+    }
+  },
+  'global': {
+    'system': {
+      'turn_count': 1,
+      'user_id': '693ea867-c25a-44f6-aedf-a4c0187dd955'
+    },
+    'session_id': '693ea867-c25a-44f6-aedf-a4c0187dd955'
+  }
+}

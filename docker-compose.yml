@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+
+  django:
+    build: .
+    container_name: django
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/code
+    restart: unless-stopped
+
+  webserver:
+    image: nginx
+    links:
+      - django
+    volumes:
+      - .:/code
+    restart: unless-stopped

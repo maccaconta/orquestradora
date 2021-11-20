@@ -1,0 +1,53 @@
+Essa aplicação é composta pelos aplicativos:
+
+    Prodesp_Chatbot: app principal, onde se encontra o settings.py do ecosistema
+
+    Api : API de conversação, gestão de atendimento e documentos
+
+    Middle: Processos E Regras de Negócio do Detran
+
+    Broadcaat: Emissor de mensagens para o Whatzapp, Telegram e Mensager
+
+    Orchest factory: Administrador e monitor da API Orchest
+
+
+A API Orchest v.2 watson methods orquestra o pipeline de mensageria entre os canais de comunicação,
+         o watson e os serviços do Detran, gerenciando atendimentos abertos.
+
+A API Orchest v.2 foi desenvolvida com Python Django Framework Rest 3.12.4
+
+A API Orchest v.2 utiliza tecnologia Watson Assistant v.2, responsável por identificar a intenção
+do atendimento, orientar o fluxo de conversação e instruir o Orchest a executar processos de negócios
+da middle quando necessário.
+
+A API é dividia em 3 camadas:
+    - Pipeline de mensageria, responsabilidades:
+        a) Conversação entre o chatbot e o Watson.
+        b) Broadcast, módulo de comunicação com as APIs do Whatzapp, Telegram e Mensager.
+
+    - Atendimento, responsabilidades:
+        a) Gestão de atendimento
+        b) Gestão de documentos.
+
+    - Middle, responsabilidades:
+        a) Processos e regras de negócio
+        b) Consumo de serviços do Detran
+        c) Serviços disponibilizados pelo Orchest
+
+O processamento é realizado atráves de 3 classes princiais que se herdam:
+
+    <Orquestrator> realiza a gestão do atendimento:
+      - Inicia, gerencia e encerra os atendimentos.
+      - Gerencia o recebimento e envio de documentos
+      - Gera protocolo do atendimento
+
+    <Watson> persiste a comunicação com o Watson
+      - Estalece novas conexões
+      - Abre e deleta sessões
+      - Envia e recebe mensagens do Watson
+      - Atualiza contextos
+
+        <Middle> Camada de negócios, onde acontece o consumo dos serviços do Detran
+
+
+
